@@ -18,7 +18,8 @@ pipeline {
 // numToKeepStr - Max # of builds to keep
 // daysToKeepStr - Days to keep builds
 // artifactDaysToKeepStr - Days to keep artifacts
-// artifactNumToKeepStr - Max # of builds to keep with artifacts	  
+// artifactNumToKeepStr - Max # of builds to keep with artifacts
+// created this first time	  
 }	
   environment {
     SONAR_HOME = "${tool name: 'sonar-scanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'}"
